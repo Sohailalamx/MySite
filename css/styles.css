@@ -61,6 +61,20 @@ hr{border-style: none;
            padding: 50px 100px;
            border-radius: 10px;
            box-shadow: 0px 0px 60px lightgrey;}
+
+#skill1 {
+  background-color: #fde2e4;
+}
+#skill2 {
+  background-color: #e2ece9;
+}
+#skill3 {
+  background-color: #fff1e6;
+}
+#skill4 {
+  background-color: #dfe7fd;
+}
+
 .skill-row:hover{border: 1px;
                  border-radius: 10px;
                  box-shadow: .75px .75px 8px lightgrey;}
