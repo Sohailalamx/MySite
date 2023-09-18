@@ -64,15 +64,18 @@ hr{border-style: none;
 
 #skill1 {
   background-color: #fde2e4;
+  color: #ff5d8f;
 }
 #skill2 {
   background-color: #fff1e6;
+  color: #d4a373
 }
 #skill3 {
   background-color: #e2ece9;
 }
 #skill4 {
   background-color: #dfe7fd;
+  color: #9381ff;
 }
 
 .skill-row:hover{border: 1px;
