@@ -147,3 +147,51 @@ hr{border-style: none;
 .website{width: 30px;
           margin: 0px 25px;
           color: #EAF6F6;}
+
+.skill-row .examples {
+  display: none;
+  transition: 0.3s ease;
+}
+
+.examples .links a {
+  color: black;
+  transition: 0.3s ease;
+}
+
+.skill-row .examples .links {
+  margin-bottom: 20px;
+}
+
+.skill-row.active .examples{
+  display: contents;
+  position: absolute;
+  top: 100px;
+}
+
+
+.links .arrow {
+  height: 12px;
+  transition: 0.3s ease;
+}
+
+.links:hover .arrow {
+  transform: translateX(10px);
+}
+
+.links li {
+
+  font-size: 1em;
+  font-weight: 100;
+  transition: 0.3s ease;
+}
+
+.links:hover li a{
+  text-decoration: underline;
+  /* transform: scaleX(2); */
+}
+
+.examples .links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
