@@ -195,3 +195,25 @@ hr{border-style: none;
   gap: 10px;
   align-items: center;
 }
+
+
+.presentaion-vid {
+  display: grid;
+  gap: 30px;
+}
+
+.examples .presentaion-vid {
+  width: 100%;
+}
+
+.presentaion-vid {
+  width: 1250px;
+}
+
+.presentaion-vid .vid {
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 25px grey;
+}
+
+
